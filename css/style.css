@@ -360,54 +360,71 @@ input{
 
 /****** Activités ***********/
 
-.activities-title{
-    padding-top: 50px;
-    margin-left: 30px;
-}
-
 .activities-cards {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: 100%;
-    margin-left: 20px;
-    height: 390px;
-
+    margin: 30px;
+    padding-bottom: 30px;
 }
 
 .card-box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
 }
 
-.activities-place {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 60px;
+.activities-title{
+    padding: 50px 0px 30px 0px;
+    margin-left: 30px;
 }
 
 .activities .card {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin-top: 33px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 20px;
-   
-}
-
-.activities img {
-    width: 100%;
-    height: 390px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-   
-}
-
-.activities .card-title {
-    padding: 20px;
+    width: 300px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+.card-image {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: -5px
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 450px;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .card-text{
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  /****** A Propos ***********/
+
+  .footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 230px;
+    padding-left: 50px;
+    background-color: #F2F2F2;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  footer ul {
+    padding: 0px;
+    list-style-type: none;
+   
+    
+  }
+
+  footer li {
+    padding: 10px 0px 10px 0px;
+  }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
